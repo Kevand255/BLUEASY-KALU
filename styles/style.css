@@ -419,7 +419,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* ajusta la altura según sea necesario */
+    height: 100vh; 
 }
 
 .contact-header {
@@ -428,7 +428,7 @@ body {
     padding: 40px 0;
     gap: 20px;
     width: 90%;
-    max-width: 1200px; /* Ajusta el ancho máximo del contenedor */
+    max-width: 1200px;
 }
 
 .contact-header h2 {
@@ -508,7 +508,6 @@ body {
     background-color: #4bcaff;
     border: none;
     outline: none;
-    /* width: 100%; */
 }
 
 .contact-button:active {
@@ -564,22 +563,10 @@ body {
         margin: 4em;
     }
 
-    /* .gallery{
-        grid-template-columns: repeat(2, 1fr);
-
-        grid-template-rows: repeat(2 , minmax(200px, 1fr)    );
-    } */
-
     .gallery{
         display: grid;
         place-items: center;
-        /* padding-bottom: 300px;    */
         margin-top: 300px;
-
-        /* grid-template-columns: repeat(4, 200px);
-        /* grid-template-columns: repeat(2, minmax(200px, 1fr)); */
-        /*grid-template-rows: repeat(1, 100px); */
-
 
         img{
             width: 400px;
@@ -609,19 +596,7 @@ body {
         font-size: 2rem;
         padding: 0.5rem;
     }
-/* 
-    .cards {
-        height: auto;
-    }
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(200px, 1fr));
-        grid-template-rows: repeat(1 , 100%);
-        align-items: center;
-        background-color: #00ADEF;
-        color: #fff;
-        height: 45vh;
-    }   */
+
 
     .card {
         width: 100%;
@@ -643,9 +618,7 @@ body {
         width: 80%;
 
     }
-    .imageTwitter{
-        /* margin-right: 500px; */
-    }
+
 
     #section_5{
         width: 100%;
@@ -745,7 +718,6 @@ body {
     .cards {
         font-size: 10px;
         height: 150px;
-        /* gap: 5px; */
     }
 
     .card {
@@ -766,7 +738,6 @@ body {
         font-size: 24px;
         transform: translate(700px, 0px );
         width: auto;
-        /* background-color: red; */
     }
 
 
@@ -859,10 +830,6 @@ body {
         padding: 0.3rem;
     }
 
-    /* .cards {
-        grid-template-columns: 1fr;
-        height: auto;
-    } */
     
     .cards {
         display: grid;
@@ -883,7 +850,6 @@ body {
         width: 20px;
     }
     .gallery{
-        /* height: 5000px; */
         display: grid;
         place-items: center;
         margin-top: 200px;
